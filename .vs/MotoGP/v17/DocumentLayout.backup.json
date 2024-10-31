@@ -1,0 +1,344 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\APT\\MotoGP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\viewmodel\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\viewmodel\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\wwwroot\\css\\hehe.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\wwwroot\\css\\hehe.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\wwwroot\\client\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\wwwroot\\client\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\areas\\client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\areas\\client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\areas\\client\\views\\home\\detailproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\areas\\client\\views\\home\\detailproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\areas\\client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\areas\\client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\viewmodel\\listviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\viewmodel\\listviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\controllers\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\controllers\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\viewmodel\\motoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\viewmodel\\motoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\views\\moto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\views\\moto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|d:\\apt\\motogp\\motogp\\views\\moto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC9BBF2-FBB6-4DCC-846C-F9555233522E}|MotoGP\\MotoGP.csproj|solutionrelative:motogp\\views\\moto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "MotoGP\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "MotoGP\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T12:15:31.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "MotoGP\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "MotoGP\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T12:15:17.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForgotPasswordViewModel.cs",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\ViewModel\\ForgotPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "MotoGP\\ViewModel\\ForgotPasswordViewModel.cs",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\ViewModel\\ForgotPasswordViewModel.cs",
+              "RelativeToolTip": "MotoGP\\ViewModel\\ForgotPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:07:00.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MotoGP\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MotoGP\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAwIYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:06:19.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Program.cs",
+              "RelativeDocumentMoniker": "MotoGP\\Program.cs",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Program.cs",
+              "RelativeToolTip": "MotoGP\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:05:51.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MotoGP\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MotoGP\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T12:02:40.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "MotoGP\\Views\\Account\\Index.cshtml",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "MotoGP\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T12:02:36.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\style.css",
+              "RelativeDocumentMoniker": "MotoGP\\wwwroot\\Client\\style.css",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\style.css",
+              "RelativeToolTip": "MotoGP\\wwwroot\\Client\\style.css",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-31T11:58:24.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutUser.cshtml",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeDocumentMoniker": "MotoGP\\Views\\Shared\\_LayoutUser.cshtml",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeToolTip": "MotoGP\\Views\\Shared\\_LayoutUser.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T11:57:40.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "hehe.css",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\css\\hehe.css",
+              "RelativeDocumentMoniker": "MotoGP\\wwwroot\\css\\hehe.css",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\css\\hehe.css",
+              "RelativeToolTip": "MotoGP\\wwwroot\\css\\hehe.css",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAqwH8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-31T11:53:51.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "MotoGP\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "MotoGP\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T11:53:42.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Areas\\client\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MotoGP\\Areas\\client\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Areas\\client\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MotoGP\\Areas\\client\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T05:01:02.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DetailProduct.cshtml",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Areas\\client\\Views\\Home\\DetailProduct.cshtml",
+              "RelativeDocumentMoniker": "MotoGP\\Areas\\client\\Views\\Home\\DetailProduct.cshtml",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Areas\\client\\Views\\Home\\DetailProduct.cshtml",
+              "RelativeToolTip": "MotoGP\\Areas\\client\\Views\\Home\\DetailProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T04:56:59.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListViewModel.cs",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\ViewModel\\ListViewModel.cs",
+              "RelativeDocumentMoniker": "MotoGP\\ViewModel\\ListViewModel.cs",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\ViewModel\\ListViewModel.cs",
+              "RelativeToolTip": "MotoGP\\ViewModel\\ListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T04:51:58.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MotoViewModel.cs",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\ViewModel\\MotoViewModel.cs",
+              "RelativeDocumentMoniker": "MotoGP\\ViewModel\\MotoViewModel.cs",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\ViewModel\\MotoViewModel.cs",
+              "RelativeToolTip": "MotoGP\\ViewModel\\MotoViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwA4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T04:49:00.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Views\\Moto\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MotoGP\\Views\\Moto\\Edit.cshtml",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Views\\Moto\\Edit.cshtml",
+              "RelativeToolTip": "MotoGP\\Views\\Moto\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T04:36:43.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MotoController.cs",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Controllers\\MotoController.cs",
+              "RelativeDocumentMoniker": "MotoGP\\Controllers\\MotoController.cs",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Controllers\\MotoController.cs",
+              "RelativeToolTip": "MotoGP\\Controllers\\MotoController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T04:35:54.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Views\\Moto\\Create.cshtml",
+              "RelativeDocumentMoniker": "MotoGP\\Views\\Moto\\Create.cshtml",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Views\\Moto\\Create.cshtml",
+              "RelativeToolTip": "MotoGP\\Views\\Moto\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T22:58:33.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\APT\\MotoGP\\MotoGP\\Areas\\client\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MotoGP\\Areas\\client\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\APT\\MotoGP\\MotoGP\\Areas\\client\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MotoGP\\Areas\\client\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T12:44:23.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

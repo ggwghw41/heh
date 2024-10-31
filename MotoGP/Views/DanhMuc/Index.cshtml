@@ -1,0 +1,60 @@
+﻿@model IEnumerable<MotoGP.Models.DanhMuc>
+
+@{
+    ViewData["Title"] = "Thêm Hãng xe";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<p>
+    <a class="btn btn-primary" asp-action="Add">Thêm Hãng xe</a>
+</p>
+<div class="card-body table-responsive p-0" style="height: 600px;">
+    <table class="table table-head-fixed text-nowrap align-items-center text-center">
+        <thead>
+            <tr >
+                <th>Tên hãng xe</th>
+                <th>Hình ảnh</th>
+                <th>NHà sản xuất</th>
+                <th>Hiện thị</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var moto in Model)
+            {
+                <tr class="text-bold justify-content-center align-items-center">
+                    <td>@moto.TenHangXe</td>
+                   
+                    <td>
+                        <img src="@Url.Content("~/images/" + moto.HinhAnh)" alt="@moto.HinhAnh" style="width:100px;height:auto;" />
+                    </td>
+                    <td>@moto.NuocSanXuat</td> <!-- Nếu bạn đã bao gồm thông tin danh mục -->
+                    <td>
+                        @if(moto.HienThi)
+                        {
+                            <i class="fa-solid fa-check"></i>
+                        }
+                        else
+                        {
+                            <i class="fa-solid fa-x"></i>
+                        }
+                    </td>
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class=" btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Tùy chỉnh
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-action="Edit" asp-route-id="@moto.Id">Edit</a>
+
+                                <a class="dropdown-item" asp-action="Delete" asp-route-id="@moto.Id">Delete</a>
+                            </div>
+                        </div>
+
+                        
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>  

@@ -1,0 +1,53 @@
+﻿@model MotoGP.ViewModel.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+
+
+<form asp-action="Register" method="post" class="dangnhap" autocomplete="off">
+    @Html.AntiForgeryToken()
+    <div class="title">
+        <h3>Đăng Ký</h3>
+    </div>
+    <div class="row">
+        <label for=""></label>
+        <i class="fa-solid fa-user"></i>
+        <input type="text" name="Name" id="" placeholder="Username">
+
+    </div>
+    <div class="row">
+        <label for=""></label>
+        <i class="fa-regular fa-envelope"></i>
+        <input type="email" name="Email" id="" placeholder="Email" >
+
+    </div>
+    <div class="row">
+        <label for=""></label>
+        <i class="fa-solid fa-mobile-screen-button"></i>
+        <input type="tel" id="phone" name="NumberPhone" placeholder="Number Phone" pattern="[0-9]{10,11}" maxlength="11" required">
+    </div>
+    <div class="row">
+        <label for="pass"></label>
+        <i id="toggleIcon" class="fa-solid fa-lock" onclick="togglePassword()"></i>
+        <input type="password" name="Password" id="pass" minlength="8" pattern="(?=.*[A-Z]).{8,}" title="Mật khẩu phải có ít nhất 8 ký tự và ít nhất một ký tự viết hoa." placeholder="Password" required>
+    </div>
+    <div class="row">
+        <label for="pass"></label>
+        <i id="confirmtoggleIcon" class="fa-solid fa-lock" onclick="confirmPassword()"></i>
+        <input type="password" name="ConfirmPassword" id="confirmpass" minlength="8" pattern="(?=.*[A-Z]).{8,}" title="Mật khẩu phải có ít nhất 8 ký tự và ít nhất một ký tự viết hoa." placeholder="Confirm Password" required>
+    </div>
+    <div class="row">
+        @Html.ValidationSummary(true, "", new { @class = "row" })
+    </div>
+
+
+    <div class="login">
+        <button type="submit">Đăng Ký</button>
+    </div>
+    <div class="links">
+        <p>Trở lại <a href="@Url.Action("Login","Account")">Đăng nhập</a></p>
+    </div>
+</form>

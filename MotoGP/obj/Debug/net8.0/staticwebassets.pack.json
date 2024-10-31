@@ -1,0 +1,641 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MotoGP.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MotoGP.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\Brand.png",
+      "PackagePath": "staticwebassets\\Client\\img\\Brand.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\CHITIET.png",
+      "PackagePath": "staticwebassets\\Client\\img\\CHITIET.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\DichVu.jpg",
+      "PackagePath": "staticwebassets\\Client\\img\\DichVu.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\GOIY.png",
+      "PackagePath": "staticwebassets\\Client\\img\\GOIY.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\Client\\img\\Logo.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\Product.png",
+      "PackagePath": "staticwebassets\\Client\\img\\Product.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\dichvu.png",
+      "PackagePath": "staticwebassets\\Client\\img\\dichvu.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\h4-img-4.jpg",
+      "PackagePath": "staticwebassets\\Client\\img\\h4-img-4.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\info.jpg",
+      "PackagePath": "staticwebassets\\Client\\img\\info.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\info.png",
+      "PackagePath": "staticwebassets\\Client\\img\\info.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\new.png",
+      "PackagePath": "staticwebassets\\Client\\img\\new.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\slider-1.png",
+      "PackagePath": "staticwebassets\\Client\\img\\slider-1.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\slider-3.png",
+      "PackagePath": "staticwebassets\\Client\\img\\slider-3.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\img\\slider-4.png",
+      "PackagePath": "staticwebassets\\Client\\img\\slider-4.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\js\\script.js",
+      "PackagePath": "staticwebassets\\Client\\js\\script.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\screen.css",
+      "PackagePath": "staticwebassets\\Client\\screen.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\Client\\style.css",
+      "PackagePath": "staticwebassets\\Client\\style.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\css\\hehe.css",
+      "PackagePath": "staticwebassets\\css\\hehe.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\dist\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\dist\\img\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\dist\\img\\AdminLTELogo.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\dist\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\dist\\img\\Logo.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\dist\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\dist\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\dist\\js\\adminlte.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\0891203d-cd18-4d04-9d5d-b4546e0fee74.jpg",
+      "PackagePath": "staticwebassets\\images\\0891203d-cd18-4d04-9d5d-b4546e0fee74.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\1-279x139-1.png",
+      "PackagePath": "staticwebassets\\images\\1-279x139-1.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\2024-YAM-MT10-US-DBNM8-DET-008-03.JPG.webp",
+      "PackagePath": "staticwebassets\\images\\2024-YAM-MT10-US-DBNM8-DET-008-03.JPG.webp"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\2024-YAM-MT10-US-DBNM8-DET-010-03.JPG.webp",
+      "PackagePath": "staticwebassets\\images\\2024-YAM-MT10-US-DBNM8-DET-010-03.JPG.webp"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\2024-cbr1000rr-all-led-lighting-package.png",
+      "PackagePath": "staticwebassets\\images\\2024-cbr1000rr-all-led-lighting-package.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\2024-cbr1000rr-hi-performance-four-cylinder-engine.png",
+      "PackagePath": "staticwebassets\\images\\2024-cbr1000rr-hi-performance-four-cylinder-engine.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\2024-cbr1000rr-honda-selectable-torque-control.png",
+      "PackagePath": "staticwebassets\\images\\2024-cbr1000rr-honda-selectable-torque-control.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\2024-cbr1000rr-lightweight-sub-frame.png",
+      "PackagePath": "staticwebassets\\images\\2024-cbr1000rr-lightweight-sub-frame.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\2024-cbr1000rr-slimmer-ergonomics.png",
+      "PackagePath": "staticwebassets\\images\\2024-cbr1000rr-slimmer-ergonomics.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\2024-cbr1000rr-throttle-by-wire.png",
+      "PackagePath": "staticwebassets\\images\\2024-cbr1000rr-throttle-by-wire.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\2025-yamaha-r1-and-r1m-7-8280-1726991338.jpg",
+      "PackagePath": "staticwebassets\\images\\2025-yamaha-r1-and-r1m-7-8280-1726991338.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\2d7ccb26-0df1-4abf-9a6b-b03f641cffb7.jpg",
+      "PackagePath": "staticwebassets\\images\\2d7ccb26-0df1-4abf-9a6b-b03f641cffb7.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\3b4367b6-bc7c-46a5-87f7-fe90bd17fe19.jpg",
+      "PackagePath": "staticwebassets\\images\\3b4367b6-bc7c-46a5-87f7-fe90bd17fe19.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\5-279x139-1.png",
+      "PackagePath": "staticwebassets\\images\\5-279x139-1.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\70933879-28d0-4690-9874-837392b9fd55.jpg",
+      "PackagePath": "staticwebassets\\images\\70933879-28d0-4690-9874-837392b9fd55.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-10-YY-1059.JPG.png",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-10-YY-1059.JPG.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-10-YY-1063.JPG.png",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-10-YY-1063.JPG.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-10-YY-907-2.JPG.png",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-10-YY-907-2.JPG.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-10-YY-960.JPG.png",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-10-YY-960.JPG.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-10-YY-987.JPG.png",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-10-YY-987.JPG.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-12-YY-34.JPG.jpg",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__11-2025-YZFR1S1L-DPBMC-US-12-YY-34.JPG.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__2024-YAM-MT10-US-DBNM8-DET-003-03.JPG.png",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__2024-YAM-MT10-US-DBNM8-DET-003-03.JPG.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__2024-YAM-MT10-US-DBNM8-DET-009-03.JPG.png",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__2024-YAM-MT10-US-DBNM8-DET-009-03.JPG.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__2024-YAM-MT10-US-DBNM8-DET-010-03.JPG.png",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__2024-YAM-MT10-US-DBNM8-DET-010-03.JPG.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__2024-YAM-MT10-US-DBNM8-DET-012-03.JPG.jpg",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__2024-YAM-MT10-US-DBNM8-DET-012-03.JPG.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\AnyConv.com__24-MT10-DBNM8-360-03-1.JPG.png",
+      "PackagePath": "staticwebassets\\images\\AnyConv.com__24-MT10-DBNM8-360-03-1.JPG.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\a-2.jpg",
+      "PackagePath": "staticwebassets\\images\\a-2.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\a-4.jpg",
+      "PackagePath": "staticwebassets\\images\\a-4.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\a-6.jpg",
+      "PackagePath": "staticwebassets\\images\\a-6.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\b94e16c1-355a-46a5-9410-f02052b4d473.jpg",
+      "PackagePath": "staticwebassets\\images\\b94e16c1-355a-46a5-9410-f02052b4d473.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\ct-1.jpg",
+      "PackagePath": "staticwebassets\\images\\ct-1.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\ct-2.jpg",
+      "PackagePath": "staticwebassets\\images\\ct-2.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\ct-3.jpg",
+      "PackagePath": "staticwebassets\\images\\ct-3.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\ct-4.jpg",
+      "PackagePath": "staticwebassets\\images\\ct-4.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\ct-5.jpg",
+      "PackagePath": "staticwebassets\\images\\ct-5.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\e131bd45-7f39-41fc-baf3-d71ad0901589.jpg",
+      "PackagePath": "staticwebassets\\images\\e131bd45-7f39-41fc-baf3-d71ad0901589.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\editorial_wide_V4_AP18686_UC93785-1330x768.jpg",
+      "PackagePath": "staticwebassets\\images\\editorial_wide_V4_AP18686_UC93785-1330x768.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\logo-1.png",
+      "PackagePath": "staticwebassets\\images\\logo-1.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\logo-2.png",
+      "PackagePath": "staticwebassets\\images\\logo-2.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\logo-3.png",
+      "PackagePath": "staticwebassets\\images\\logo-3.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\logo-4.png",
+      "PackagePath": "staticwebassets\\images\\logo-4.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\logo-5.png",
+      "PackagePath": "staticwebassets\\images\\logo-5.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\result_3b4367b6-bc7c-46a5-87f7-fe90bd17fe19.jpg",
+      "PackagePath": "staticwebassets\\images\\result_3b4367b6-bc7c-46a5-87f7-fe90bd17fe19.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\result_a-2.jpg",
+      "PackagePath": "staticwebassets\\images\\result_a-2.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\result_b94e16c1-355a-46a5-9410-f02052b4d473.jpg",
+      "PackagePath": "staticwebassets\\images\\result_b94e16c1-355a-46a5-9410-f02052b4d473.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\spnb-3.jpg",
+      "PackagePath": "staticwebassets\\images\\spnb-3.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\spnb-4.jpg",
+      "PackagePath": "staticwebassets\\images\\spnb-4.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\images\\spnb-6.jpg",
+      "PackagePath": "staticwebassets\\images\\spnb-6.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\img\\DichVu.jpg",
+      "PackagePath": "staticwebassets\\img\\DichVu.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\img\\Screenshot 2024-09-18 193335.png",
+      "PackagePath": "staticwebassets\\img\\Screenshot 2024-09-18 193335.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\img\\h4-img-4.jpg",
+      "PackagePath": "staticwebassets\\img\\h4-img-4.jpg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\img\\pngtree-maple-leaf-png-image_8407777-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\pngtree-maple-leaf-png-image_8407777-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\js\\Script.js",
+      "PackagePath": "staticwebassets\\js\\Script.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\APT\\MotoGP\\MotoGP\\wwwroot\\plugins\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MotoGP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MotoGP.props",
+      "PackagePath": "build\\MotoGP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MotoGP.props",
+      "PackagePath": "buildMultiTargeting\\MotoGP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MotoGP.props",
+      "PackagePath": "buildTransitive\\MotoGP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,697 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #555;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    border: none;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Đảm bảo menu nằm trên các phần tử khác */
+    width: 100%;
+    max-width: 100%;
+    padding: 0 30px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+    .nav-logo p {
+        color: white;
+    }
+
+    .nav-logo span {
+        color: red;
+    }
+
+    .nav-logo img {
+        height: 50px;
+    }
+
+.nav-menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+    .nav-menu ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1vw;
+        font-weight: bold;
+    }
+
+    .nav-menu ul li {
+        padding: 15px 20px;
+        position: relative; /* Để submenu có thể căn chỉnh đúng vị trí */
+        cursor: pointer;
+    }
+
+        .nav-menu ul li:hover {
+            background-color: #555;
+            border-radius: 25px;
+        }
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Vị trí submenu ngay dưới mục cha */
+    background-color: #333;
+    padding: 10px 0px;
+    transition: all 0.3s ease-in-out 0s;
+    text-align: center;
+    width: 150px;
+}
+
+.nav-menu ul li:hover .submenu {
+    display: block; /* Hiện submenu khi di chuột vào mục cha */
+}
+
+.submenu ul {
+    display: flex;
+    flex-direction: column;
+    right: 20px;
+}
+
+
+/* Nút hamburger mặc định là ẩn */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Định dạng cho màn hình nhỏ (điện thoại) */
+
+/* Hiển thị menu khi nhấn vào hamburger */
+.nav-menu.active {
+    display: block;
+}
+
+.home {
+    background-color: #555;
+    border-radius: 25px;
+}
+
+/* -container------- */
+.carousel-container {
+    width: 100%;
+    max-width: 100%; /* Để vừa 3 ảnh lớn */
+    margin: auto;
+    position: relative;
+    overflow: hidden; /* Ẩn phần ngoài vùng hiển thị */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%; /* Tạo chiều rộng gấp 3 lần vùng chứa để hiển thị 3 ảnh */
+}
+
+.carousel-img {
+    flex: 1; /* Mỗi ảnh chiếm 1 phần bằng nhau trong carousel */
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .carousel-img img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+
+
+.carousel-controll {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 38px;
+    color: white;
+}
+
+.prev {
+    left: 10px;
+    z-index: 1;
+}
+
+.next {
+    right: 10px;
+}
+
+/* -------------info------------ */
+.info-show {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.info {
+    width: 100%;
+}
+
+.img-info {
+    width: 100%;
+}
+
+    .img-info img {
+        width: 100%;
+    }
+
+.info-show {
+    display: flex;
+    padding: 10px 20px;
+    width: 1200px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.info-img .info-title {
+    flex: 1;
+}
+
+.info-img img {
+    width: 600px;
+    margin-right: 40px;
+    max-width: 100%;
+}
+
+.info-title {
+    font-size: 18px;
+    margin: auto;
+    align-items: center;
+    margin-left: 10px;
+}
+
+    .info-title h3 {
+        font-size: 3vw;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+.info h4 {
+    width: 420px;
+}
+
+.info-title p {
+    color: white;
+}
+
+.info-title b {
+    color: rgb(0, 255, 21);
+}
+
+.info-title span {
+    color: red;
+}
+
+.info-title button {
+    padding: 10px 30px;
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+    .info-title button:hover {
+        background-color: red;
+        cursor: pointer;
+    }
+/* --------brand */
+.brand {
+    margin: auto;
+    max-width: 100%;
+    background-color: #555;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Brand-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-img {
+    background-color: #8a8484;
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out; /* Tạo hiệu ứng mượt */
+}
+
+.Brand-img img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.item-img:hover {
+    transform: translateY(-10px); /* Đẩy logo lên trên 10px */
+}
+/* -------------product-------------- */
+.product {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.product-card {
+    width: 300px;
+    max-width: 100%;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(194, 200, 204);
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out; /* Tạo hiệu ứng mượt */
+}
+
+.product-title {
+    padding: 10px;
+}
+
+    .product-title h3 {
+        margin: 10px;
+        font-size: 25px;
+    }
+
+.product-img img {
+    width: 100%;
+    height: 200px;
+    max-width: 100%;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+
+.number-start {
+    margin-left: 10px;
+    color: yellow;
+}
+
+.product-card button {
+    padding: 5px 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.product-title .btns {
+    background-color: #555;
+    padding: 10px;
+}
+
+    .product-title .btns a {
+        color: white;
+    }
+
+    .product-title .btns:hover {
+        background-color: red;
+        cursor: pointer;
+        color: white;
+    }
+
+.product-card button:hover {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+.product-card:hover .product-title h3 {
+    color: red;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+/* ----------service----------------- */
+.service {
+    background-image: url('../img/dichvu.jpg');
+    width: 100%;
+    height: 700px;
+    background-size: cover; /* Make the image cover the entire area */
+    background-position: center; /* Center the image */
+    position: relative;
+    max-width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu đen với độ mờ 50% */
+}
+
+.servire-title {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: #333333b7;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+    .servire-title h2 {
+        text-align: center;
+        margin: 20px;
+        font-size: 30px;
+    }
+
+.sevrice-content {
+    color: white;
+}
+
+.sevrice-item {
+    display: flex;
+}
+
+.sevrice-item-left .sevrice-item-right {
+    flex: 1;
+}
+
+.sevrice-item-left {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.sevrice-item-right {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.sevrice-item-left i {
+    color: rgb(255, 0, 0);
+    margin-right: 10px;
+}
+
+.sevrice-item-right i {
+    color: rgb(255, 0, 0);
+    margin-right: 10px;
+}
+
+.btn-service {
+    text-align: center;
+}
+
+    .btn-service button {
+        padding: 10px 30px;
+        font-weight: bold;
+        font-size: 2vh;
+    }
+
+        .btn-service button:hover {
+            background-color: red;
+            cursor: pointer;
+            color: white;
+        }
+
+/* ---------news------------ */
+.news {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.news-card {
+    margin: 30px;
+    width: 250px;
+    background-color: rgb(194, 200, 204);
+    transition: transform 0.3s ease-in-out; /* Tạo hiệu ứng mượt */
+    max-width: 100%;
+}
+
+.news-img img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.news-card:hover {
+    transform: translateY(-10px);
+}
+
+    .news-card:hover .news-content h5 {
+        color: red;
+    }
+
+.news-content h5 {
+    text-align: center;
+}
+
+.news-content p {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+    .news-content p a {
+        color: black;
+        background-color: #ffffff;
+        padding: 10px 30px;
+        font-weight: bold;
+    }
+
+footer {
+    background-image: url('../img/h4-img-4.jpg');
+    position: relative;
+    background-size: cover; /* Make the image cover the entire area */
+    background-position: center; /* Center the image */
+}
+
+.news-content p a:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.row {
+    flex: 1;
+    margin: 20px;
+    color: white;
+}
+
+    .row p {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+        .row p i {
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+        }
+
+        .row p a {
+            color: white;
+        }
+
+.nen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #555555e4;
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    z-index: 2;
+}
+
+.row p i:hover {
+    color: red;
+}
+
+
+
+/* ---------chitietsanpham */
+.container-chitiet {
+    width: 100%;
+    max-width: 100%; /* Để vừa 3 ảnh lớn */
+    position: relative;
+    padding-top: 70px;
+}
+
+.container-box {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.row-chitiet {
+    flex: 1;
+}
+
+    .row-chitiet img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+.img-box {
+    display: flex;
+}
+
+.row-img {
+    height: auto;
+    margin: 10px;
+}
+
+    .row-img img {
+        width: 100%;
+        transition: transform 0.3s ease;
+        max-width: 100%;
+        /* Thêm hiệu ứng chuyển động cho ảnh */
+    }
+
+        .row-img img:hover {
+            cursor: pointer;
+            transform: scale(1.1); /* Phóng to ảnh khi hover */
+        }
+
+.title-product {
+    text-align: center;
+    margin: auto;
+}
+
+    .title-product h3 {
+        font-size: 3.2em; /* Kích thước chữ */
+        color: white;
+    }
+
+.price {
+    font-size: 1.2em; /* Kích thước chữ */
+    color: #fef6f6; /* Màu chữ */
+    font-weight: bold; /* Chữ đậm */
+}
+
+.title-product p {
+    color: #fef6f6;
+    font-weight: bold;
+}
+
+.mota {
+    width: 1200px;
+    max-width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Khoảng cách giữa các ảnh */
+    margin: 20px; /* Khoảng cách ngoài cho container */
+    padding: 20px;
+}
+
+    .mota img {
+        width: 150px;
+        height: 300px; /* Đặt chiều cao cố định cho tất cả hình ảnh */
+        object-fit: cover; /* Giữ tỷ lệ và cắt bớt nếu cần thiết */
+    }
+
+
+
+.product-details {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.detail {
+    display: none; /* Ẩn nội dung chi tiết ban đầu */
+    margin: 10px 0; /* Khoảng cách giữa các phần tử */
+    padding: 10px;
+    color: white;
+    border-radius: 5px; /* Bo tròn góc */
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out; /* Hiệu ứng chuyển tiếp */
+    overflow: hidden; /* Ẩn phần nội dung thừa */
+    opacity: 0; /* Đặt độ mờ cho nội dung */
+    max-height: 0; /* Đặt chiều cao tối đa */
+}
+
+    .detail.show {
+        display: block; /* Hiển thị nội dung chi tiết */
+        opacity: 1; /* Đặt độ mờ thành 100% */
+        max-height: 500px; /* Đặt chiều cao tối đa khi hiển thị */
+    }
+
+.toggle-button {
+    cursor: pointer; /* Con trỏ chuột thay đổi khi di chuột qua */
+    color: #ffffff; /* Màu chữ */
+    font-weight: bold; /* Đậm chữ */
+    font-size: 28px;
+}
+
+.product-details-show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin: 20px 0px;
+}
+
+.container-detait {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+/* -----------news------- */
+.container-new {
+    width: 1200px;
+    max-width: 100%; /* Để vừa 3 ảnh lớn */
+    padding-top: 70px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.container-new-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0px;
+}
+
+.container-new-title h3 {
+    font-size: 1rem;
+}

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<MotoGP.Models.test>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<p>
+    <a class="btn btn-primary" id="openCreateModal">Thêm danh mục</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên Danh Mục</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Name</td>
+                <td>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@category.Id">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal cho việc thêm danh mục -->
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!-- Nội dung modal sẽ được thêm vào ở đây qua AJAX -->
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).on('click', '#openCreateModal', function () {
+            $.get('/Test/Create', function (data) {
+                $('#createModal .modal-content').html(data);
+                $('#createModal').modal('show');
+            });
+        });
+
+        $(document).on('submit', '#CreateTest', function (e) {
+            e.preventDefault();
+            var form = $(this);
+            $.post(form.attr('action'), form.serialize(), function (data) {
+                if (data.success) {
+                    $('#createModal').modal('hide');
+                    location.reload();
+                } else {
+                    alert(data.message);
+                }
+            });
+        });
+    </script>
+}

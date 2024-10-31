@@ -1,0 +1,158 @@
+﻿* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('../img/screenshot 2024-09-18 193335.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Giữ hình nền cố định */
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.dangnhap {
+    width: auto;
+    border: 1px solid #EA6450;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    backdrop-filter: blur(5px);
+}
+
+.title {
+    margin: 20px;
+}
+
+    .title h3 {
+        font-size: 30px;
+        text-align: center;
+        color: #000000;
+    }
+
+.row {
+    margin: 30px;
+    position: relative;
+}
+
+    .row input {
+        border: none;
+        border-bottom: 1px solid rgb(47, 46, 46);
+        background-color: transparent;
+        width: 300px;
+        padding: 0 5px;
+        font-size: 18px;
+        outline: none;
+        color: white;
+    }
+
+        .row input::placeholder {
+            color: white;
+        }
+
+    .row i {
+        position: absolute;
+        right: 20px;
+        font-size: 25px;
+        color: aliceblue;
+        bottom: 10px;
+    }
+
+#toggleIcon {
+    cursor: pointer;
+}
+
+.login {
+    margin: 20px;
+}
+
+    .login button {
+        background-color: #fdaa20;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
+
+        .login button:hover {
+            background-color: #EA6450;
+        }
+
+.links {
+    margin: 10px 20px;
+}
+
+    .links p {
+        text-align: center;
+        color: white;
+    }
+
+        .links p a {
+            text-decoration: none;
+            color: #021649;
+            font-weight: bold;
+        }
+
+
+.falling-leaves {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.leaf {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/pngtree-maple-leaf-png-image_8407777-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: fall linear infinite, sway 2s infinite alternate;
+    opacity: 0.8;
+}
+.Forgot {
+    text-align: right;
+}
+
+    .Forgot p a {
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+@keyframes fall {
+    0% {
+        top: -10%;
+        transform: translateX(0) rotate(0deg);
+    }
+
+    100% {
+        top: 110%;
+        transform: translateX(100px) rotate(360deg);
+    }
+}
+
+/* Hiệu ứng đong đưa */
+@keyframes sway {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(20px);
+    }
+}

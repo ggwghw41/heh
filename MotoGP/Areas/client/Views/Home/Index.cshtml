@@ -1,0 +1,184 @@
+﻿@model MotoGP.ViewModel.ListViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<section>
+    <div class="carousel-container">
+        <div class="carousel-controll prev"><i class="fa-solid fa-chevron-left"></i></div>
+        <div class="carousel">
+            <div class="carousel-img">
+                <img src="~/client/img/slider-3.png" />
+            </div>
+            <div class="carousel-img">
+                <img src="~/client/img/slider-4.png" />
+
+            </div>
+            <div class="carousel-img">
+                <img src="~/client/img/slider-1.png" />
+
+            </div>
+
+        </div>
+        <div class="carousel-controll next"><i class="fa-solid fa-chevron-right"></i></div>
+    </div>
+</section>
+<section class="info">
+    <div class="img-info">
+        <img src="~/client/img/info.png" />
+        
+
+    </div>
+</section>
+<section class="info-show">
+    <div class="info-show">
+        <div class="info-img">
+            <img src="~/client/img/info.jpg" />
+        </div>
+        <div class="info-title">
+
+            <p>
+                Chào mừng bạn đến với <b>Show <span>MotoGP</span></b> 2024,<br> sự kiện hoành tráng
+                dành riêng cho những ai đam mê tốc độ <br> và sự mạnh mẽ của những cỗ máy hai bánh. <br>
+                Đây là cơ hội để bạn chiêm ngưỡng và trải nghiệm <br> những chiếc xe mô tô đẳng cấp thế giới, lấy cảm hứng <br>
+                từ những chiếc xe của các tay đua huyền thoại trong giải đua MotoGP.
+            </p>
+            <button type="button">Xem chi tiết</button>
+        </div>
+    </div>
+</section>
+
+<section class="info">
+    <div class="img-info">
+        <img src="~/client/img/brand.png" />
+    </div>
+</section>
+<section class="brand">
+    <div class="Brand-img">
+        @if (Model != null && Model.DanhMucs != null && Model.DanhMucs.Any())
+        {
+            foreach (var dm in Model.DanhMucs)
+            {
+                <div class="item-img">
+                    <a href="link-logo-1">
+                        <!-- Bạn có thể thay đổi đường dẫn này nếu cần -->
+                        <img src="@Url.Content("~/images/" + dm.HinhAnh)" alt="@dm.TenHangXe" />
+                    </a>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Không có danh mục nào để hiển thị.</p>
+        }
+    </div>
+</section>
+
+<section class="info">
+    <div class="img-info">
+        <img src="./img/Product.png" alt="">
+
+    </div>
+</section>
+<section class="product">
+    @if (Model != null && Model.Motos != null && Model.Motos.Any())
+    {
+        foreach (var mt in Model.Motos.Take(6))
+        {
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="@Url.Content("~/images/" + mt.HinhAnh)" alt="@mt.HinhAnh">
+                </div>
+                <div class="product-title">
+                    <h3>@mt.TenXe</h3>
+                    <p>Giá bán: @mt.Gia <suP>VND</suP></p>
+                    <div class="start">
+                        <p>Đánh giá:</p>
+                        <div class="number-start">
+                            @for(int i=1; i<=mt.DanhGia;i++)
+                            {
+                                <i class="fa-solid fa-star"></i>
+                            }
+                           
+                        </div>
+                    </div>
+                    <p class="btns">
+                        <a href="@Url.Action("DetailProduct", "Home", new { area = "Client", id = mt.Id })">Xem chi tiết</a>
+                    </p>
+                </div>
+            </div>
+        }
+    }
+  
+    
+</section>
+<section class="info">
+    <div class="img-info">
+        <img src="./img/dichvu.png" alt="">
+
+    </div>
+</section>
+<section class="service">
+    <div class="overlay"></div>
+    <div class="sevrice-content">
+        <div class="servire-title">
+            <h2>Các Dịch Vụ Nổi Bật Tại Show MotoGP</h2>
+            <p>Show MotoGP 2024 không chỉ là nơi bạn chiêm ngưỡng những siêu xe tốc độ hàng đầu mà còn mang đến những dịch vụ chuyên nghiệp, đẳng cấp, dành riêng cho khách hàng đam mê mô tô. Tại đây, chúng tôi tự hào cung cấp các dịch vụ toàn diện, từ tư vấn mua xe, bảo hành, đến các trải nghiệm lái thử, tất cả nhằm mang đến sự hài lòng tuyệt đối cho bạn.</p>
+            <div class="sevrice-item">
+                <div class="sevrice-item-left">
+                    <p><i class="fa-solid fa-square-check"></i>Tư Vấn Mua Xe Cá Nhân Hoá</p><br>
+                    <p><i class="fa-solid fa-square-check"></i>Dịch Vụ Lái Thử</p><br>
+                    <p><i class="fa-solid fa-square-check"></i>Dịch Vụ cứu hộ xe PKL 24/24</p><br>
+                    <p><i class="fa-solid fa-square-check"></i>Chuyên Thiết Kế Tem Xe theo yêu cầu</p><br>
+                </div>
+                <div class="sevrice-item-right">
+                    <p><i class="fa-solid fa-square-check"></i>Bọc carbon fiber cho tất cả các chi tiết xe.</p><br>
+                    <p><i class="fa-solid fa-square-check"></i>Đồ chơi xe mô tô: Phuộc Upside Down, Pô độ xe PKL, Móc Pô cho các dòng xe PKL</p><br>
+                    <p><i class="fa-solid fa-square-check"></i>Cung cấp đồ chơi, linh kiện, phụ kiện chính hãng.</p><br>
+                    <p><i class="fa-solid fa-square-check"></i>Thay nhớt miễn phí trong 1 năm</p><br>
+                </div>
+
+            </div>
+            <div class="btn-service">
+                <button type="button">Xem dịch vụ</button>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<section class="info">
+    <div class="img-info">
+        <img src="./img/new.png" alt="">
+
+    </div>
+</section>
+<section class="news">
+    @if(Model !=null)
+    {
+        @foreach(var tt in Model.News)
+        {
+            <div class="news-card">
+                <div class="news-img">
+                    <img src="@Url.Content("~/images/" + tt.HinhAnh)" alt="">
+                </div>
+                <div class="news-content">
+                    <h5>
+                        @tt.TieuDe
+                    </h5>
+
+
+                    <p>
+                        <a href="@Url.Action("Details", "News", new { id = tt.Id })">Xem tin <i class="fa-solid fa-eye"></i></a>
+
+            </p>
+
+                </div>
+            </div>
+        }
+    }
+   
+   
+</section>
+

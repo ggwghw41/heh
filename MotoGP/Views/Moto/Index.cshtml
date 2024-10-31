@@ -1,0 +1,78 @@
+﻿@model IEnumerable<MotoGP.Models.Moto>
+
+@{
+    ViewData["Title"] = "Thêm xe";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<p>
+    <a class="btn btn-primary" asp-action="Create">Thêm xe</a>
+</p>
+<div class="card-body table-responsive p-0" style="height: 700px;">
+    <table class="table table-head-fixed text-nowrap">
+        <thead>
+            <tr>
+                <th>Tên Xe</th>
+                <th>Dòng Xe</th>
+                <th>Giá</th>
+                <th>Màu Xe</th>
+                <th>Hình Ảnh</th>
+                <th>Hãng xe</th>
+                <th>Sản phẩm nổi bật</th>
+                <th>Hiển thị</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var moto in Model)
+            {
+                <tr>
+                    <td>@moto.TenXe</td>
+                    <td>@moto.DongCo</td>
+                    <td>@moto.Gia.ToString("C")</td>
+                    <td>@moto.MauXe</td>
+                    <td>
+                        <a asp-action="Detail" asp-route-id="@moto.Id"><img src="@Url.Content("~/images/" + moto.HinhAnh)" alt="@moto.TenXe" style="width:100px;height:auto;" /></a>
+                    </td>
+                    <td>@moto.DanhMuc.TenHangXe</td>
+                    <td>
+                        @if (moto.NoiBat)
+                        {
+                            <i class="fa-solid fa-check"></i>
+                        }
+                        else
+                        {
+                            <i class="fa-solid fa-x"></i>
+                        }
+                    </td>
+                    <td>
+                        @if (moto.HienThi)
+                        {
+                            <i class="fa-solid fa-check"></i>
+                        }
+                        else
+                        {
+                            <i class="fa-solid fa-x"></i>
+                        }
+                    </td>
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class=" btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Tùy chỉnh
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item " asp-action="Edit" asp-route-id="@moto.Id">Chỉnh sửa</a>
+                                <a class=" dropdown-item " asp-action="Delete" asp-route-id="@moto.Id">Xóa</a>
+                                
+                                <div class="dropdown-divider"></div>
+
+                                <a class=" dropdown-item" asp-action="ImageMoTo" asp-route-id="@moto.Id">Ảnh</a>
+                                
+                            </div>
+                        </div>
+                        
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

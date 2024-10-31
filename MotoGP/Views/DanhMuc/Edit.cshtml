@@ -1,0 +1,71 @@
+﻿@model MotoGP.ViewModel.DanhmucModel
+
+@{
+    ViewData["Title"] = "Sửa xe";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="card card-primary">
+    <div class="card-header">
+        <h3 class="card-title">Sửa xe</h3>
+    </div>
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+        <div class="row ">
+            <div class="card-body col-md-6">
+                <div class="form-group">
+                    <label for="TenHangXe">Tên hãng xe</label>
+                    <input type="text" asp-for="TenHangXe" class="form-control" placeholder="Tên Xe">
+                    <span asp-validation-for="TenHangXe" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="NuocSanXuat">Nước sản xuất</label>
+                    <input type="text" asp-for="NuocSanXuat" class="form-control" placeholder="Nước sản xuất">
+                    <span asp-validation-for="NuocSanXuat" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="card-body col-md-6">
+                <div class="form-group">
+                    <label for="NuocSanXuat">Hình ảnh</label>
+                    <div class="input-group">
+                        <div class="custom-file">
+                            <input type="file" asp-for="HinhAnh" class="custom-file-input" id="imageInput">
+                            <label asp-for="HinhAnh" class="custom-file-label" id="imageLabel">Choose file</label>
+                        </div>
+                        <div class="input-group-append">
+                            <span class="input-group-text">Upload</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="NuocSanXuat">Nước sản xuất</label>
+                    <div class="form-check">
+                        <input class="form-check-input" asp-for="HienThi" /> @Html.DisplayNameFor(model => model.HienThi)
+                        <label class="form-check-label" for="HienThi">Hiện thị</label>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script>
+    document.getElementById('imageInput').addEventListener('change', function (event) {
+        var fileName = event.target.files[0] ? event.target.files[0].name : 'Choose file';
+        document.getElementById('imageLabel').innerText = fileName;
+    });
+</script>
+
+

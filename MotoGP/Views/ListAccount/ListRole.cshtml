@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MotoGP.Models.Role>
+
+@{
+    ViewData["Title"] = "ListRole";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<p>
+    <a class="btn btn-primary" asp-action="Add">Thêm Quyền</a>
+</p>
+<div class="card-body table-responsive p-0" style="height: 600px;">
+    <table class="table table-head-fixed text-nowrap align-items-center text-center justify-content-center">
+        <thead>
+            <tr>
+                <th>Tên quyền</th>
+             
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr class="bg-secondary text-bold justify-content-center align-items-center">
+
+                    <td>@user.Name</td>
+                   
+                    <td>
+                        <a class="btn btn-success" asp-action="Edit" asp-route-id="@user.Id">Edit</a>
+
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@user.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

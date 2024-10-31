@@ -1,0 +1,278 @@
+﻿@model MotoGP.ViewModel.ListDetailProduct
+@{
+    ViewData["Title"] = "DetailProduct";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<section class="container-chitiet">
+    <div class="container-box">
+        <div class="row-chitiet">
+            <img id="main-image" src="@Url.Content("~/images/" + Model.HinhAnh)" alt="Main Image">
+            <div class="img-box">
+                @foreach (var imgmoto in Model.MotoImages.Take(5))
+                {
+                    <div class="row-img">
+                        <img src="@Url.Content("~/images/"+ imgmoto)" alt="" onclick="changeImage(this.src)">
+                    </div>
+                }               
+            </div>
+        </div>
+        <div class="row-chitiet">
+            <div class="title-product">
+                <h3>Ducati Panigale V4</h3>
+                <p class="price">Giá xe: @Model.Gia<sup>VND</sup></p>
+                <div class="start">
+                    <p>Đánh giá:</p>
+                    <div class="number-start">
+                        @for(int i=1; i <= Model.DanhGia;i++)
+                        {
+                            <i class="fa-solid fa-star"></i>
+                        }
+                        
+                        
+                    </div>
+                </div>
+                <p>Dung tích xe: 1000cc</p>
+                <div class="btn-service" style="margin: 20px;">
+                    <button type="button">Đặt hàng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="info">
+    <div class="img-info">
+        <img src="~/client/img/chitiet.png" />
+
+    </div>
+</section>
+<section class="container-detait">
+
+    <section class="mota">
+        @foreach (var imgmoto in Model.MotoImages)
+        {
+            
+                <img src="@Url.Content("~/images/" + imgmoto)" alt="">
+           
+        }
+    </section>
+    <section class="product-details">
+        <div class="product-details-show" onclick="toggleDetail('motorDetail')">
+            <div class="toggle-button">Chi tiết Động cơ</div>
+            <div class="btns">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+        </div>
+        <div class="detail" id="motorDetail">
+            <p>Động cơ này sử dụng công nghệ tiên tiến nhất để cung cấp hiệu suất tối ưu và tiết kiệm nhiên liệu.</p>
+            <p>Thông số kỹ thuật:</p>
+            <ul>
+                <li>@Html.Raw(Model.ChiTietDongCo)</li>
+            </ul>
+        </div>
+
+        <div class="product-details-show" onclick="toggleDetail('brakeDetail')">
+            <div class="toggle-button">Chi tiết Hệ thống phanh</div>
+            <div class="btns">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+        </div>
+        <div class="detail" id="brakeDetail">
+            <p>Hệ thống phanh trên Ducati Panigale V4 được trang bị công nghệ tiên tiến với hiệu suất cao.</p>
+            <p>Thông số kỹ thuật:</p>
+            <ul>
+                <li>@Html.Raw(Model.ChiTietHẹThongPhanh)</li>
+            </ul>
+        </div>
+
+        <div class="product-details-show" onclick="toggleDetail('techDetail')">
+            <div class="toggle-button">Công nghệ và tính năng</div>
+            <div class="btns">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+        <div class="detail" id="techDetail">
+            <ul>
+                <li> @Html.Raw(Model.CongNghe)</li>
+            </ul>
+        </div>
+
+        <div class="product-details-show" onclick="toggleDetail('designDetail')">
+            <div class="toggle-button">Thiết kế</div>
+            <div class="btns">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+        <div class="detail" id="designDetail">
+            <ul>
+                <li>@Html.Raw(Model.ThietKe)</li>
+            </ul>
+        </div>
+
+        <div class="product-details-show" onclick="toggleDetail('performanceDetail')">
+            <div class="toggle-button">Hiệu suất</div>
+            <div class="btns">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+        <div class="detail" id="performanceDetail">
+            <ul>
+                <li>@Html.Raw(Model.HieuSuat)</li>
+            </ul>
+        </div>
+
+        <div class="product-details-show" onclick="toggleDetail('priceDetail')">
+            <div class="toggle-button">Giá bán</div>
+            <div class="btns">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+        <div class="detail" id="priceDetail">
+            <p>Giá của Ducati Panigale V4 có thể dao động tùy thuộc vào thị trường và trang bị kèm theo, nhưng thường nằm trong khoảng từ <strong>20.000 đến 25.000 USD</strong>.</p>
+        </div>
+        <div class="product-details-show" onclick="toggleDetail('SanXuatDetail')">
+            <div class="toggle-button">Sản xuất</div>
+            <div class="btns">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+        <div class="detail" id="SanXuatDetail">
+            <ul>
+                <li>@Html.Raw(Model.SanXuat)</li>
+            </ul>
+           
+        </div>
+    </section>
+</section>
+<section class="info">
+    <div class="img-info">
+        <img src="~/client/img/goiy.png" />
+
+    </div>
+</section>
+<section class="product">
+    <div class="product-card">
+        <div class="product-img">
+            <img src="./img/spnb-1.jpg" alt="">
+        </div>
+        <div class="product-title">
+            <h3>Ducati Panigale v4</h3>
+            <p>Giá bán: 936.900.000 <suP>VND</suP></p>
+            <div class="start">
+                <p>Đánh giá:</p>
+                <div class="number-start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <p class="btns"><a href="">Xem chi tiết</a></p>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-img">
+            <img src="./img/spnb-2.jpg" alt="">
+        </div>
+        <div class="product-title">
+            <h3>Yamaha R1</h3>
+            <p>Giá bán:  378.000.000 <suP>VND</suP></p>
+            <div class="start">
+                <p>Đánh giá:</p>
+                <div class="number-start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <p class="btns"><a href="">Xem chi tiết</a></p>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-img">
+            <img src="./img/spnb-3.jpg" alt="">
+        </div>
+        <div class="product-title">
+            <h3>Honda CBR S100RR</h3>
+            <p>Giá bán: 1.003.000.000 <suP>VND</suP></p>
+            <div class="start">
+                <p>Đánh giá:</p>
+                <div class="number-start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <p class="btns"><a href="">Xem chi tiết</a></p>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-img">
+            <img src="./img/spnb-4.jpg" alt="">
+        </div>
+        <div class="product-title">
+            <h3>Kawasaki H2</h3>
+            <p>Giá bán: 1.299.000.000 <suP>VND</suP></p>
+            <div class="start">
+                <p>Đánh giá:</p>
+                <div class="number-start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <p class="btns"><a href="">Xem chi tiết</a></p>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-img">
+            <img src="./img/spnb-5.jpg" alt="">
+        </div>
+        <div class="product-title">
+            <h3>Suzuki GSX 1000RR</h3>
+            <p>Giá bán: 401.900.000 <suP>VND</suP></p>
+            <div class="start">
+                <p>Đánh giá:</p>
+                <div class="number-start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <p class="btns"><a href="">Xem chi tiết</a></p>
+
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-img">
+            <img src="./img/spnb-6.jpg" alt="">
+        </div>
+        <div class="product-title">
+            <h3>BMW S1000RR</h3>
+            <p>Giá bán: 1.099.900.000 <suP>VND</suP></p>
+            <div class="start">
+                <p>Đánh giá:</p>
+                <div class="number-start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <p class="btns"><a href="">Xem chi tiết</a></p>
+        </div>
+    </div>
+</section>
+

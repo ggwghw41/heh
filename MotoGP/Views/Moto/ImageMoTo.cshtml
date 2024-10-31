@@ -1,0 +1,39 @@
+﻿@model MotoGP.ViewModel.ImageProductViewModel
+@{
+    ViewData["Title"] = "Sản phẩm" + Model.TenXe;
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<p>
+    <a class="btn btn-primary" asp-action="CreateImg">Thêm xe</a>
+</p>
+<div class="card-body table-responsive p-0" style="height: 700px;">
+    <table class="table table-head-fixed text-nowrap">
+        <thead>
+            <tr>                
+                <th>Hình Ảnh</th>    
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var moto in Model.MotoImages)
+            {
+                <tr>
+                   
+                    <td>
+                        <a asp-action="Detail" asp-route-id="@moto.Id"><img src="@Url.Content("~/images/" + moto.HinhAnh)" alt="@moto.HinhAnh" style="width:100px;height:auto;" /></a>
+                    </td>
+                   
+   
+                    <td>
+                        <a class="btn btn-success" asp-action="Edit" asp-route-id="@moto.Id">Edit</a>
+                        <a class="btn btn-danger" asp-action="Deleteimg" asp-route-id="@moto.Id">Delete</a>
+                        
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

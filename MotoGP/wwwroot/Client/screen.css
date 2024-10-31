@@ -1,0 +1,173 @@
+﻿@media(max-width:895px) {
+    .nav-menu ul li a {
+        font-size: 12px;
+    }
+
+    .title-info {
+        font-size: 20px;
+    }
+
+    .info h4 {
+        width: 350px;
+    }
+
+    .news {
+        justify-content: center;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .news-card {
+        margin: 20px;
+        width: 200px;
+        background-color: rgb(194, 200, 204);
+        transition: transform 0.3s ease-in-out; /* Tạo hiệu ứng mượt */
+        max-width: 100%;
+        font-size: 2vw;
+    }
+
+    .carousel-container {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none; /* Menu mặc định là ẩn khi màn hình nhỏ */
+        position: absolute;
+        width: 300px;
+        height: auto;
+        right: 0;
+        top: 40px;
+        padding: 10px 50px;
+        transition: 0.5s;
+        background-color: #333;
+        text-align: center;
+        justify-content: center;
+    }
+
+    nav {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hamburger {
+        display: block; /* Hiển thị hamburger icon khi màn hình nhỏ */
+        margin-left: auto; /* Đẩy nút hamburger qua bên phải */
+    }
+
+    .nav-menu ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+        .nav-menu ul li {
+            text-align: left;
+            width: 100%;
+        }
+
+            .nav-menu ul li a {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+
+    .Brand-img img {
+        width: 100%;
+        max-width: 100%;
+        transition: transform 0.3s ease-in-out; /* Tạo hiệu ứng mượt */
+    }
+
+    .submenu {
+        position: absolute;
+        top: 0;
+        right: 200px;
+        width: 300px;
+        max-width: 100%;
+    }
+
+    .title_brand h1 {
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+    }
+
+    .title-info {
+        font-size: 28px;
+    }
+
+    .info h4 {
+        width: 250px;
+    }
+
+    .info-show {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .servire-title {
+        width: 100%;
+    }
+
+    .news {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .news-card {
+        margin: 10px;
+        width: 95%;
+        height: auto;
+        background-color: rgb(155, 157, 159);
+        transition: transform 0.3s ease-in-out; /* Tạo hiệu ứng mượt */
+        max-width: 100%;
+        font-size: 2vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .news-img img {
+        width: 50%;
+        max-width: 100%;
+        margin-left: 30px;
+    }
+
+    .news-content p a {
+        color: black;
+        background-color: #ffffff;
+        padding: 5px 20px;
+        font-weight: bold;
+    }
+
+    .news-content {
+        margin-right: 50px;
+    }
+
+    footer {
+        font-size: 2vw;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-service button {
+        padding: 5px 20px;
+        font-weight: bold;
+        font-size: 2vh;
+        margin-bottom: 10px;
+    }
+
+    .sevrice-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

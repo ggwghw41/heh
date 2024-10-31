@@ -1,0 +1,60 @@
+﻿@model IEnumerable<MotoGP.Models.News>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Thêm Tin Tức</a>
+</p>
+<div class="card-body table-responsive p-0" style="height: 600px;">
+    <table class="table table-head-fixed text-nowrap align-items-center text-center justify-content-center">
+        <thead>
+            <tr>
+                <th>Tiêu đề</th>
+                <th>Hình ảnh</th>
+                <th>Nội dung</th>
+                <th>Hiện thị</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var news in Model)
+            {
+                <tr class="bg-secondary text-bold justify-content-center align-items-center">
+
+                    <td>@news.TieuDe</td>
+                    <td>
+                        <img src="@Url.Content("~/images/" + news.HinhAnh)" alt="@news.HinhAnh" style="width:100px;height:auto;" />
+                    </td>
+                    
+                    <td>
+                        @if (news.HienThi)
+                        {
+                            <i class="fa-solid fa-check"></i>
+                        }
+                        else
+                        {
+                            <i class="fa-solid fa-x"></i>
+                        }
+                    </td>
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class=" btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Tùy chỉnh
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-action="Edit" asp-route-id="@news.Id">Edit</a>
+
+                                <a class="dropdown-item" asp-action="Delete" asp-route-id="@news.Id">Delete</a>
+                                <a class="dropdown-item" asp-action="Details" asp-route-id="@news.Id">Details</a>
+                            </div>
+                        </div>
+                       
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

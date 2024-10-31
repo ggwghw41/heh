@@ -1,0 +1,33 @@
+﻿@model MotoGP.Models.Account
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<form action="Login" method="post" class="dangnhap" autocomplete="off">
+    @Html.AntiForgeryToken()
+    <div class="title">
+        <h3>@ViewBag.Title</h3>
+    </div>
+    <div class="row">
+        <label for=""></label>
+        <i class="fa-regular fa-envelope"></i>
+        <input type="email" name="Email" id="" placeholder="Email">
+
+    </div>
+    <div class="row">
+        <label for="pass"></label>
+        <i id="toggleIcon" class="fa-solid fa-lock" onclick="togglePassword()"></i>
+        <input type="password" name="Password" id="pass" placeholder="Password" required>
+    </div>
+     <div class="row Forgot ">
+                <p><a  href="@Url.Action("ForgotPassword","Account")">Forgot Password</a></p>
+            </div>
+    <div class="login">
+        <button type="submit">Đăng nhập</button>
+    </div>
+    <div class="links">
+        <p>Bạn chưa có tài khoản? <a href="@Url.Action("Register","Account")">Tạo tài khoản</a></p>
+    </div>
+</form>
+
